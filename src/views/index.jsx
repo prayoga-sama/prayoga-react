@@ -13,7 +13,7 @@ import { gridSpacing } from 'config.js';
 // assets
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 
-import { getMovieList, getSearchMovie } from '../store/Api';
+import { getMovieList, getSearchMovie } from 'api';
 
 // ==============================|| DASHBOARD DEFAULT ||============================== //
 

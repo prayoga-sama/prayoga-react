@@ -10,7 +10,7 @@ import Breadcrumb from 'component/Breadcrumb';
 import { gridSpacing } from 'config.js';
 
 // ==============================|| SAMPLE PAGE ||============================== //
-import { getMovieDetail } from '../../store/Api';
+import { getMovieDetail } from 'api';
 
 const DetailMovie = () => {
   const params = useParams();
