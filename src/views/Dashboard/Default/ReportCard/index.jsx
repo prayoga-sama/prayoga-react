@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router';
-
 
 // material-ui
 import { useTheme } from '@mui/material/styles';
