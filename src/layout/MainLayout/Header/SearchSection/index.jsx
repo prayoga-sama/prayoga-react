@@ -122,6 +122,9 @@ const SearchSection = () => {
                                   }
                                 }}
                                 inputProps={{ 'aria-label': 'search' }}
+                                ref={searchRef}
+                                onKeyDown={searchEnter}
+                                onChange={({ target }) => searchKeyword(target.value)}
                               />
                               <Box
                                 sx={{

@@ -47,8 +47,6 @@ const Header = ({ drawerToggle }) => {
       </Box>
       <Box sx={{ flexGrow: 1 }} />
       <SearchSection theme="light" />
-      <NotificationSection />
-      <ProfileSection />
     </>
   );
 };

@@ -35,10 +35,10 @@ export default {
       children: [
         {
           id: 'dashboard',
-          title: 'Dashboard',
+          title: 'Most Popular',
           type: 'item',
           icon: icons['HomeOutlinedIcon'],
-          url: '/dashboard/default'
+          url: '/'
         }
       ]
     },
@@ -51,7 +51,7 @@ export default {
       children: [
         {
           id: 'sample-page',
-          title: 'Watchlistgit add',
+          title: 'Watchlist',
           type: 'item',
           url: '/search/watchlist',
           icon: icons['ChromeReaderModeOutlinedIcon']
