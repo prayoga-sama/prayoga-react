@@ -51,9 +51,9 @@ export default {
       children: [
         {
           id: 'sample-page',
-          title: 'Sample Page',
+          title: 'Watchlist',
           type: 'item',
-          url: '/sample-page',
+          url: '/search/watchlist',
           icon: icons['ChromeReaderModeOutlinedIcon']
         },
         {
