@@ -52,7 +52,7 @@ const DetailMovie = () => {
             />
             <Divider />
             <CardContent>
-              <Typography>
+              <Typography className="tx-ct">
                 <img src={import.meta.env.VITE_APP_API_URL_IMAGE + movieDetail.poster_path} alt={movieDetail.original_title} className="maximage" />
               </Typography>
             </CardContent>
