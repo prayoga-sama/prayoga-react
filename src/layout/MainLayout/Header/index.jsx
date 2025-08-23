@@ -7,8 +7,6 @@ import { Box, Grid, IconButton } from '@mui/material';
 
 // project import
 import SearchSection from './SearchSection';
-import ProfileSection from './ProfileSection';
-import NotificationSection from './NotificationSection';
 import { drawerWidth } from 'config.js';
 
 // assets
